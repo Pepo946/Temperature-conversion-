@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Is Hot ?</title>
+</head>
+<body>
+    <form>
+        <h1>Temperature conversion : </h1>
+        <input type="number" name="temp" id="textbox" value="0"><br>
+
+        <input type="radio" id="tofarhreneit" name="unit">
+        <label for="tofarhreneit">Celesius To Farhenheit</label><br>
+
+        <input type="radio" id="tocelsius" name="unit">
+        <label for="tocelsius"> Farhenheit To Celesius</label><br>
+
+        <button type="button" onclick="convert()">Submit</button> 
+        <p id="result"></p>
+    </form>
+
+    <script src="js.js"></script>
+</body>
+</html>
